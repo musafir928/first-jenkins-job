@@ -5,6 +5,7 @@ test.describe("User Story01 @user01", async() => {
     //create beforeall()
         test.beforeAll(async () => {
             console.log("beforeAll  function is executed");
+            console.log("testing git push username");
         })
 //create afterAll()
         test.afterAll(async () => {
